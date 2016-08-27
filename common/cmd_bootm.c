@@ -177,7 +177,7 @@ int do_bootm (cmd_tbl_t *cmdtp, int flag, int argc, char *argv[])
 	char	*name, *s;
 	int	(*appl)(int, char *[]);
 	image_header_t *hdr = &header;
-
+	DECLARE_GLOBAL_DATA_PTR;
 
 	//mips_cache_set(3);
 
@@ -268,6 +268,8 @@ int do_bootm (cmd_tbl_t *cmdtp, int flag, int argc, char *argv[])
 #endif				
 			{	
 		SHOW_BOOT_PROGRESS (-1);
+		eth_initialize(gd->bd);
+		run_command("uip start", 0);//add by mleaf start uip
 		return 1;
 	    }
 	}

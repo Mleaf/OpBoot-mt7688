@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Widora</title>
+		<link rel="stylesheet" href="style.css">
+		<style type="text/css">
+		#apDiv1 {
+	position: absolute;
+	width: 157px;
+	height: 186px;
+	z-index: 1;
+	left: 245px;
+	top: 55px;
+}
+        </style>
+	</head>
+	<body>
+		
+		<div id="m">
+		<div id="h">
+		  <div id="nav">
+		    <ul>
+		      <li><a href="index.html">升级固件</a></li>
+		      <li><a href="uboot.html">升级UBOOT</a></li>
+		      <li><a href="art.html">升级ART数据</a></li>
+		      <li><a href="about.html">关于</a></li>
+	        </ul>
+	      </div>
+		  <span style="display:inline-block;position:relative;"><img src="vt.png"><B style="position:absolute;right:10px;top:10px;">TM</B></span>
+		  </div>
+		  <p>You are going to update <strong>firmware</strong> on the device.<br>
+	      Please, choose file from your local hard drive and click <strong>Update firmware</strong> button.</p>
+			
+			<form method="post" action="/firmware.cgi" enctype="multipart/form-data">
+			  <p>
+			    <input type="file" name="firmware">
+			    <input type="submit" value="更新">
+			  </p>
+			  <p>&nbsp;</p>
+			  <p>&nbsp; </p>
+			</form>
+			<div class="i w">
+				<strong>WARNINGS</strong>
+				<ul>
+					<li>mail:350983773@qq.com</li>
+					<li>do not power off the device during update</li>
+					<li>if everything goes well, the device will restart</li>
+					<li>you can upload whatever you want, so be sure that you choose proper firmware image for your device</li>
+				</ul>
+			</div>
+	</div>
+		<div id="f">You can find more information about this project on <a href="https://github.com/widora/u-boot-mt7688" target="_blank">Widora</a></div>
+	</body>
+</html>

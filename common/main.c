@@ -393,6 +393,7 @@ void main_loop (void)
 # ifdef CONFIG_AUTOBOOT_KEYED
 		disable_ctrlc(prev);	/* restore Control C checking */
 # endif
+
 	}
 #endif /* CONFIG_PREBOOT */
 #if defined(CONFIG_BOOTDELAY) && (CONFIG_BOOTDELAY >= 0)
@@ -432,6 +433,9 @@ void main_loop (void)
 # ifdef CONFIG_AUTOBOOT_KEYED
 		disable_ctrlc(prev);	/* restore Control C checking */
 # endif
+	// something goes wrong!
+	printf("\n## Error: failed to boot linux !\nHTTPD server is starting...##\n\n");
+	run_command("uip start", 0);//add by mleaf start uip
 	}
 
 # ifdef CONFIG_MENUKEY
