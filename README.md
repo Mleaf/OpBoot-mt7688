@@ -18,6 +18,6 @@
 * add dhcp server,address pool(192.168.1.100 - 192.168.1.200)
 * QQ:771992497
 * mail:[QQMAIL](771992497@qq.com)
-* weibo:[@芒果Geek](http://weibo.com/linuxgeek)
+* weibo:[@芒果Geek](http://weibo.com/linuxgeek) [@mleaf](http://weibo.com/techlele)
 * mleaf: 350983773@qq.com
-##Thanks to Manfeel、cleanwrt、Piotr Dymac、Adam Dunkels。
+*##Thanks to Manfeel、cleanwrt、Piotr Dymac、Adam Dunkels。
