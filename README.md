@@ -21,5 +21,5 @@
 * QQ:771992497
 * mail:[QQMAIL](771992497@qq.com)
 * weibo:[@芒果Geek](http://weibo.com/linuxgeek)
-* mleaf:[QQMAIL](350983773@qq.com)
+* mleaf: 350983773@qq.com
 ##Thanks to Manfeel、cleanwrt、Piotr Dymac、Adam Dunkels。
