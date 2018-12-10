@@ -21,3 +21,8 @@
 * weibo:[@芒果Geek](http://weibo.com/linuxgeek) [@mleaf](http://weibo.com/techlele)
 * mleaf: 350983773@qq.com
 *##Thanks to Manfeel、cleanwrt、Piotr Dymac、Adam Dunkels。
+
+#License
+*note: The dhcpd package added by mleaf uses the GPL v3 license(./uip/apps/dhcpd).
+GPLv3 is compatible with more licenses than GPLv2: it allows you to make combinations with code that has specific kinds of additional requirements that are not in GPLv3 itself. 
+Section 7 has more information about this, including the list of additional requirements that are permitted.
