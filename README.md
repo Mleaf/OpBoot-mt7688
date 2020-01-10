@@ -1,5 +1,5 @@
 ## u-boot-mt7688
-##dhcpd uboot for Widora V1.0.7
+OpBoot for Widora V1.0.7
 ***
 ## How to use
 * 1.make menuconfig
@@ -23,7 +23,7 @@
 *##Thanks to Manfeel、cleanwrt、Piotr Dymac、Adam Dunkels。
 
 ## License
-*note: The dhcpd package added by mleaf uses the GPL v3 license(./uip/apps/dhcpd).
+*note: The dhcpd package added by mleaf uses the GPL v3 license(./uip).
 GPLv3 is compatible with more licenses than GPLv2: it allows you to make combinations with code that has specific kinds of additional requirements that are not in GPLv3 itself. 
 Section 7 has more information about this, including the list of additional requirements that are permitted.
 
