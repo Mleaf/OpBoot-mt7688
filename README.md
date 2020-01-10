@@ -1,5 +1,5 @@
-## u-boot-mt7688
-OpBoot for Widora V1.0.7
+## OpBoot-mt7688
+OpBoot for Widora V1.0.7 (MT7688)
 ***
 ## How to use
 * 1.make menuconfig
