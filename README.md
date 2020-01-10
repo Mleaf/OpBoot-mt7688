@@ -1,6 +1,11 @@
 ## OpBoot-mt7688
 OpBoot for Widora V1.0.7 (MT7688)
 ***
+
+## Statement
+The code is provided by mleaf open source, and someone said that my dhcp server was plagiarizing some unknown team to leak the source code. 
+This person can SHUT UP, do you have the ability to send your source code to github for comparison? Who copied it?
+
 ## How to use
 * 1.make menuconfig
 * 2.select MT7628 board
@@ -26,7 +31,3 @@ OpBoot for Widora V1.0.7 (MT7688)
 *note: The dhcpd package added by mleaf uses the GPL v3 license(./uip).
 GPLv3 is compatible with more licenses than GPLv2: it allows you to make combinations with code that has specific kinds of additional requirements that are not in GPLv3 itself. 
 Section 7 has more information about this, including the list of additional requirements that are permitted.
-
-## Statement
-The code is provided by mleaf open source, and someone said that my dhcp server was plagiarizing some unknown team to leak the source code. 
-This person can SHUT UP, do you have the ability to send your source code to github for comparison? Who copied it?
